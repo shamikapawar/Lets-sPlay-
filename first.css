@@ -1,0 +1,48 @@
+ body {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+     background-color: #ffae0096;
+ }
+
+ .first_page {
+     text-align: center;
+     /* background-color: rgb(141, 193, 238); */
+     text-transform: capitalize;
+     margin: 80px;
+     font-size: 42px;
+ }
+
+ ul {
+     display: flex;
+     position: absolute;
+     right: 151px;
+     top: 450px;
+
+ }
+
+ .play_about_help ul li :hover {
+     list-style: none;
+     font-style: italic;
+     font-size: 40px;
+     box-shadow: 0 0 10px #255784, 0 0 40px #2196f3, 0 0 80px #2196f3;
+     transition-delay: 0.1s;
+ }
+
+ a {
+     text-decoration: none;
+     padding: 22px;
+     margin: 20px;
+     border: 10px solid rebeccapurple;
+     border-radius: 107px;
+
+ }
+
+ .bg img {
+     width: 350px;
+     height: 350px;
+     position: absolute;
+     left: 200px;
+     clip-path: circle(167px);
+     
+ }
